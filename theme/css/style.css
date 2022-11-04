@@ -279,7 +279,7 @@ a:focus, a:hover {
   font-family: "Source Sans Pro", sans-serif;
 }
 .header-bradcrumb a:hover {
-  color: #28ABE3;
+  color: #000000;
 }
 
 .colors-switcher {
@@ -350,7 +350,7 @@ a:focus, a:hover {
 }
 
 .colors-switcher .colors-list a.blue {
-  background-color: #28ABE3;
+  background-color: #050505;
 }
 
 .colors-switcher .colors-list a.light-blue {
@@ -423,7 +423,7 @@ a:focus, a:hover {
 }
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
   background: none;
-  color: #28ABE3;
+  color: #7a7a7a;
 }
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #28ABE3;
@@ -896,14 +896,14 @@ a:focus, a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #28ABE3;
+  border-color: #0a0a0a;
 }
 .contact-form #contact-submit {
   border: none;
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #28ABE3;
+  background: #0a0a0a;
   color: #fff;
   border-radius: 0;
 }
@@ -936,9 +936,9 @@ a:focus, a:hover {
   text-align: center;
 }
 .social-icon ul li a:hover {
-  background: #28ABE3;
+  background: #0d0d0e;
   color: #fff;
-  border: 1px solid #28ABE3;
+  border: 1px solid #edf0f1;
 }
 .social-icon ul li a:hover i {
   color: #fff;
