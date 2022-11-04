@@ -1,9 +1,4 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
+
 
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
@@ -386,7 +381,7 @@ a:focus, a:hover {
   position: relative;
 }
 .single-page-header:before {
-  background: tra;
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   content: "";
   top: 0;
