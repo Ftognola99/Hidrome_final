@@ -502,7 +502,7 @@ a:focus, a:hover {
   padding: 8px 22px;
 }
 .navigation .dropdown-item:focus, .navigation .dropdown-item:hover {
-  color: #fff;
+  color: rgb(3, 3, 3);
   background: transparent;
 }
 
@@ -615,7 +615,7 @@ a:focus, a:hover {
 }
 
 .dark-bg {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(243, 240, 240, 0.7);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1842,7 +1842,7 @@ a:focus, a:hover {
   display: block;
 }
 .top-footer li a:hover {
-  color: #28ABE3;
+  color: #f3f4f5;
 }
 
 .footer-bottom {
