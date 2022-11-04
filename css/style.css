@@ -386,7 +386,7 @@ a:focus, a:hover {
   position: relative;
 }
 .single-page-header:before {
-  background: rgba(0, 0, 0, 0.8);
+  background: tra;
   position: absolute;
   content: "";
   top: 0;
