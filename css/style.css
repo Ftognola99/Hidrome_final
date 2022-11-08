@@ -423,7 +423,7 @@ a:focus, a:hover {
   color: #7a7a7a;
 }
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
-  color: #28ABE3;
+  color: #000000;
 }
 @media (max-width: 991px) {
   .navigation .nav-link {
@@ -1062,39 +1062,118 @@ a:focus, a:hover {
   font-size: 50px;
   padding: 10px 0;
 }
-
 /*=================================================================
-  Portfolio section
+  Productos-filter
 ==================================================================*/
-.portfolio-filter {
+
+.producto-filter {
   margin-bottom: 40px;
   text-align: center;
 }
-.portfolio-filter button {
+.producto-filter button {
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
   padding: 8px 20px;
   text-transform: uppercase;
-  background: #080808;
+  background:none;
   border: none;
-  color: #fff;
+  color: rgb(3, 3, 3);
   outline: none;
   margin: 6px 4px;
 }
-.portfolio-filter button.active {
+.producto-filter button.active {
   background: #505050;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.producto-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+.producto-block:before {
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.producto-block:hover:before {
+  opacity: 1;
+}
+.producto-block:hover .caption h4 {
+  top: 45%;
+}
+.producto-block:hover .caption {
+  opacity: 1;
+  top: 55%;
+}
+.producto-block .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.producto-block .caption h4 {
+  font-size: 16px;
+}
+.producto-block .caption h4 a {
+  color: #fff;
+}
+.producto-block .caption .search-icon {
+  background: #181818;
+  color: #fff;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  font-size: 17px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 47px;
+}
+
+/*=================================================================
+  Portfolio section
+==================================================================*/
+.portfolio-filter {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.portfolio-filter button {
+  cursor: wait;
+  display: inline-block;
+  font-size: 15px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  outline: line;
+  margin: 6px 4px;
+}
+.portfolio-filter button.active {
+  background: #bb0e0e;
   color: #fff;
   border-radius: 50px;
 }
 
 .portfolio-block {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(255, 255, 255, 0.55);
   opacity: 0;
   top: 0;
   right: 0;
@@ -1110,14 +1189,14 @@ a:focus, a:hover {
   top: 45%;
 }
 .portfolio-block:hover .caption {
-  opacity: 1;
-  top: 55%;
+  opacity: 100%;
+  top: 100%;
 }
 .portfolio-block .caption {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  opacity: 0;
+  opacity: 100%;
   transform: translate(-50%, -50%);
   z-index: 9;
   transition: all 0.3s ease-in-out;
@@ -1127,14 +1206,14 @@ a:focus, a:hover {
   font-size: 16px;
 }
 .portfolio-block .caption h4 a {
-  color: #fff;
+  color: rgb(5, 5, 5);
 }
 .portfolio-block .caption .search-icon {
-  background: #181818;
+  background: none;
   color: #fff;
   display: inline-block;
   height: 45px;
-  width: 45px;
+  width: 60px;
   font-size: 17px;
   border-radius: 30px;
   margin-bottom: 20px;
@@ -1149,7 +1228,7 @@ a:focus, a:hover {
   padding: 100px 0 130px;
 }
 .services .service-block.color-bg {
-  background: #28ABE3;
+  background: #000000;
   color: #fff;
 }
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
