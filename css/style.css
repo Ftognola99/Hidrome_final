@@ -1070,6 +1070,8 @@ a:focus, a:hover {
   margin-bottom: 40px;
   text-align: center;
 }
+
+
 .producto-filter button {
   cursor: pointer;
   display: inline-block;
@@ -1082,7 +1084,19 @@ a:focus, a:hover {
   outline: none;
   margin: 6px 4px;
 }
-.producto-filter button.active {
+.producto-filter h5 {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  color: rgb(3, 3, 3);
+  outline: none;
+  margin: 6px 4px;
+}
+.producto-filter h5.active {
   background: #505050;
   color: #fff;
   border-radius: 50px;

@@ -1151,10 +1151,10 @@ a:focus, a:hover {
 ==================================================================*/
 
  .producto-filter {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   text-align: center;
 }
-.producto-filter button {
+.producto-filter h5 {
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
