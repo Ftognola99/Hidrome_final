@@ -67,51 +67,65 @@
 <!--
 Fixed Navigation
 ==================================== -->
-<header class="navigation fixed-top">
-  <div class="container">
-    <!-- main nav -->
-    <nav class="navbar navbar-expand-lg navbar-light px-0">
-      <!-- logo -->
-      <a class="navbar-brand logo" href="index.html">
-        <img loading="lazy" class="logo-default" src="./images/logohidromet.png" alt="logo" />
-        <img loading="lazy" class="logo-white" src="images/logo-white.png" alt="logo" />
-      </a>
-      <!-- /logo -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navigation">
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item dropdown active">
-
-          </li>
-
-          <li class="nav-item ">
-            <a class="nav-link" href="portfolio.html">productos</a>
-          </li>
-          <!-- <li class="nav-item ">
-            <a class="nav-link" href="team.html"></a>
-          </li> -->
-
-          <li class="nav-item ">
-            <a class="nav-link" href="contact.html">Contacto</a>
-          </li>
-		  <li class="nav-item ">
-            <a class="nav-link" href="#">Sobre nosotros</a>
-          </li>
-          
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- /main nav -->
+<div class="h-32 scrollbar-thin scrollbar-thumb-blue-700 scrollbar-track-blue-300 overflow-y-scroll scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
+	<div class="h-64 bg-gray-400"></div>
   </div>
-</header>
-<!--
-End Fixed Navigation
-==================================== -->
+  <header class="navigation fixed-top">
+	<div class="container">
+	  <!-- main nav -->
+	  <nav class="navbar navbar-expand-lg navbar-light px-0">
+		<!-- logo -->
+		<a class="navbar-brand logo" href="index.html">
+		  <img loading="lazy" class="logo-default" src="./images/logohidromet.png" alt="logo" />
+		  <img loading="lazy" class="logo-white" src="images/logo-white.png" alt="logo" />
+		</a>
+		<!-- /logo -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+		  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+  
+		<div class="collapse navbar-collapse" id="navigation">
+		  <ul class="navbar-nav ml-auto text-center">
+			<li class="nav-item dropdown active">
+  
+			</li>
+  
+			<li class="nav-item ">
+			  <a class="nav-link" href="portfolio.html">productos</a>
+			</li>
+			<!-- <li class="nav-item ">
+			  <a class="nav-link" href="team.html"></a>
+			</li> -->
+  
+			<li class="nav-item ">
+			  <a class="nav-link" href="contact.html">Contacto</a>
+			</li>
+			<li class="nav-item ">
+			  <a class="nav-link" href="#">Sobre nosotros</a>
+			</li>
+  
+			<li class="nav-item ">
+			  <a class="nav-link" href="https://virtualtour.dev/vr/gessi/virtual_tour/">Showroom 360°</a>
+			  
+			</li>
+  
+			<li class="nav-item ">
+			  <a class="nav-link" href="https://virtualtour.dev/vr/gessi/virtual_tour/">Post Venta</a>
+			</li>
+			
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+	  <!-- /main nav -->
+	</div>
+  </header>
+  
+  
+  <!--
+  End Fixed Navigation
+  ==================================== -->
 
 <section class="single-page-header">
 	<div class="container">
@@ -126,6 +140,8 @@ End Fixed Navigation
 		</div>
 	</div>
 </section>
+
+
 
 <!-- Start Portfolio Section
 		=========================================== -->
@@ -143,17 +159,29 @@ End Fixed Navigation
 				<!-- /section title -->
 			</div>
 		</div>
+
+		
+
+		
 		<div class="row">
 			<div class="col-lg-12">
 
 				
 				<div class="producto-filter">
 					<!-- <button type="button" data-filter="all" >Todos</button> -->
-					<h5 type="" href="baño.html" >Baño</h5>
-					<h5 type="" href="cocinas.html" data-filter="" >Cocinas</h5>
-					<h5 type="" href="cocinas.html" data-filter="">Duchas</h5>
-					<h5 type="button" href="cocinas.html" ata-filter="">Temporizado</h5>
-					
+					<a href="baño.html">
+						<button type="button" class="btn btn-dark" >BAÑOS</button>	
+					</a>					
+					<a href="baño.html">
+						<button type="button" class="btn btn-dark" >COCINAS</button>	
+					</a>
+					<a href="baño.html">
+						<button type="button" class="btn btn-dark" >DUCHAS</button>	
+					</a>
+					<a href="baño.html">
+						<button type="button" class="btn btn-dark" >TEMPORIZADO</button>	
+					</a>
+
 				</div>
 
 				
@@ -161,13 +189,14 @@ End Fixed Navigation
 		<div class="row">
 			<div class="col-lg-12">
 
-				<!-- <div class="portfolio-filter">
+				<div class="portfolio-filter">
 					<button type="button" data-filter="all">Todos</button>
-					<button type="button" data-filter="photography">Baños</button>
-					<button type="button" data-filter="ios">Cocinas</button>
-					<button type="button" data-filter="development">Duchas</button>
+					<button type="button" data-filter="photography">rectos</button>
+					<button type="button" data-filter="ios">curvos</button>
+					<button type="button" data-filter="development">altos</button>
+					<button type="button" data-filter="design">bajos</button>
 					<button type="button" data-filter="design">Temporizado</button>
-				</div> -->
+				</div>
 
 				 <div class="row">
 					<div class="col-12">
@@ -179,7 +208,7 @@ End Fixed Navigation
 										<a class="search-icon" href="./images/productos/portfolio-1.jpg" data-lightbox="image-1">
 											
 										</a>
-										<h4><a href="portfolio.html">Raptor skin</a></h4>
+										<h4><a href="portfolio.html">One Block skin</a></h4>
 									</div>
 								</div>
 							</div>
@@ -194,6 +223,17 @@ End Fixed Navigation
 										<h4><a href="portfolio.html">Block Plane</a></h4>
 										
 									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, design, ios">
+								<div class="portfolio-block" >
+									<a href="single-post.html"><img class="img-fluid" src="./images/productos/portfolio-9.jpg" alt="" href="single-post.html"></a>
+									<div class="caption">
+										<a class="search-icon" href="./images/productos/portfolio-9.jpg" data-lightbox="image-1"></a>
+
+										<h4><a href="single-post.html">Raptor</a></h4>
+										
+									</div> 
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, photography, development">
@@ -269,6 +309,8 @@ End Fixed Navigation
 							
 							<!-- <img id="myImg" src="./images/productos/portfolio-1.jpg" alt="Snow" style="width:100%;max-width:450px"> -->
 
+							
+
 
 
 <!-- The Modal -->
@@ -282,15 +324,28 @@ End Fixed Navigation
 
   <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
-</div>
 
-							
-						</div>
-					</div>
-				</div>
-			</div> <!-- /end col-lg-12 -->
-		</div> <!-- end row -->
-	</div> <!-- end container -->
+
+
+  <section class="paginacion">
+	<ul>
+		<li><a href="pagina1.html" class="active">1</a></li>
+		<li><a href="pagina2.html">2</a></li>
+		<li><a href="pagina3.html">3</a></li>
+		<li><a href="pagina4.html">4</a></li>
+		<li><a href="pagina5.html">5</a></li>
+	</ul>
+</section>
+
+<ul>
+	<li><a href="pagina1.html" class="active">1</a></li>
+	<li><a href="pagina2.html">2</a></li>
+	<li><a href="pagina3.html">3</a></li>
+	<li><a href="pagina4.html">4</a></li>
+	<li><a href="pagina5.html">5</a></li>
+</ul>
+
+
 </section> <!-- End section -->
 
 <footer id="footer" class="bg-one">

@@ -58,8 +58,8 @@ a:focus, a:hover {
 }
 
 .btn-main {
-  background: #181818;
-  border: 1px solid #fdfdfd;
+  background: #000000;
+  border: 1px solid #fdfdfd00;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -68,6 +68,62 @@ a:focus, a:hover {
   text-transform: uppercase;
   border-radius: 40px;
 }
+
+.btn-vector {
+  background: #f7f7f7;
+  border: 1px solid #fdfdfd00;
+  color: rgb(3, 3, 3);
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.paginacion {
+	margin:20px 0;
+}
+
+.paginacion ul {
+	list-style:none;
+	text-align: center;
+}
+
+.paginacion ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.paginacion ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#024959;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background:#037E8C;
+}
+
+.paginacion ul li .active {
+	background:#037E8C;
+	font-weight:bold;
+}
+
+.btn-vector-skin{
+  background: #f7f7f7;
+  border: 1px solid #fdfdfd00;
+  color: rgb(3, 3, 3);
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
 .btn-main:hover {
   color: rgb(255, 255, 255);
 }
@@ -715,7 +771,7 @@ a:focus, a:hover {
   border-radius: 50%;
   cursor: pointer;
 }
-.slick-arrow::before {
+.slick-arrow::before {a|
   position: absolute;
   content: "";
   height: 10px;
@@ -1551,7 +1607,7 @@ a:focus, a:hover {
   margin-bottom: 30px;
 }
 .post-content blockquote {
-  border-left: 2px solid #28ABE3;
+  border-left: 2px solid #000000;
   padding: 40px 35px;
   margin-bottom: 30px;
   background: rgb(238, 238, 238);
@@ -1572,8 +1628,8 @@ a:focus, a:hover {
   display: inline-block;
 }
 .post-content-share li a:hover {
-  background: #28ABE3;
-  border-color: #28ABE3;
+  background: #020202;
+  border-color: #080808;
   color: #fff;
 }
 
@@ -1624,7 +1680,7 @@ a:focus, a:hover {
   }
 }
 .comment-list-item .comment-btn:hover {
-  background: #28ABE3;
+  background: #000000;
   color: #fff;
 }
 
@@ -1647,7 +1703,7 @@ a:focus, a:hover {
   height: 200px !important;
 }
 .comment-form .btn-primary {
-  background: #28ABE3;
+  background: #020202;
   border-radius: 0;
   padding: 10px 20px;
   border: 0;
@@ -1675,7 +1731,7 @@ a:focus, a:hover {
   right: 0;
   height: 100%;
   width: 50px;
-  background: #28ABE3;
+  background: #070707;
   border: 0;
 }
 .widget-search-btn i {
@@ -1702,7 +1758,7 @@ a:focus, a:hover {
   margin-right: 10px;
 }
 .widget-categories-list li a:hover {
-  background: #28ABE3;
+  background: #000000;
   color: #fff;
   padding-left: 20px;
 }
@@ -1730,7 +1786,7 @@ a:focus, a:hover {
   color: #000;
 }
 .widget-post-content h5:hover {
-  color: #28ABE3;
+  color: #5a5a5a;
 }
 
 /*=================================================================
