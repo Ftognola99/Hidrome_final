@@ -448,6 +448,20 @@ a:focus, a:hover {
   bottom: 0;
 }
 
+/*============================================
+Zoom effect in produt site
+=============================================*/
+
+.contenido {
+  position: relative;
+  width: 640px;
+  height: auto;
+  margin: 20px auto;
+  border: 12px solid #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(50,50,50 0.5);
+}
+
 /*=================================================================
   Navigation
 ==================================================================*/
@@ -1796,6 +1810,10 @@ a:focus, a:hover {
   padding-bottom: 100px;
   padding-top: 150px;
 }
+
+
+
+
 
 #blog-page {
   margin: 0 0 40px;

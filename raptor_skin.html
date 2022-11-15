@@ -236,7 +236,8 @@ Fixed Navigation
         <aside class="sidebar pl-0 pl-lg-4">
           <div class="widget-search widget">
             <form action="#">
-              <h3>Lavatorio Raptor</h3>
+              <img src="http://griferias.hidromet.com/wp-content/uploads/RAPTOR.jpg">
+              <h3></h3>
               <!-- Search bar -->
               <!-- <input class="form-control shadow-none" type="text" placeholder="Search..." name="search">
               <button type="submit" class="widget-search-btn">
@@ -252,13 +253,13 @@ Fixed Navigation
                 <a href="http://hidromet.com/novedosa/fotos/productos/03_MONOCOMANDOS/RAPTOR/planos/manual.pdf">Imprimir manual</a>
               </li>
               <li>
-                <a href="blog.html">Manual de Linea</a>
+                <a href="http://hidromet.com/novedosa/fotos/productos/03_MONOCOMANDOS/RAPTOR/planos/manual.pdf">Manual de Linea</a>
               </li>
               <li>
-                <a href="blog.html">Plano de Despiece</a>
+                <a href="#">Plano de Despiece</a>
               </li>
               <li>
-                <a href="blog.html">Tabla de presiones</a>
+                <a href="#">Tabla de presiones</a>
               </li>
               <!-- <li>
                 <a href="blog.html">Advanced Analytics</a>
@@ -279,7 +280,7 @@ Fixed Navigation
                   </a>
                 </div>
                 <div class="widget-post-content">
-                  <a href="single-post.html">
+                  <a href="raptor_chrome.html">
                     <h5>Raptor | Cromo</h5>
                   </a>
                   <h6></h6>
@@ -287,12 +288,12 @@ Fixed Navigation
               </li>
               <li class="widget-post-list-item">
                 <div class="widget-post-image">
-                  <a href="single-post.html">
+                  <a href="raptor_Black.html">
                     <img loading="lazy" src="images/blog/post-2.jpg" alt="post-img">
                   </a>
                 </div>
                 <div class="widget-post-content">
-                  <a href="single-post.html">
+                  <a href="raptor_Black.html">
                     <h5>Raptor | Black</h5>
                   </a>
                   <h6></h6>
@@ -300,12 +301,12 @@ Fixed Navigation
               </li>
               <li class="widget-post-list-item">
                 <div class="widget-post-image">
-                  <a href="single-post.html">
+                  <a href="raptor_white.html">
                     <img loading="lazy" src="images/blog/post-3.jpg" alt="post-img">
                   </a>
                 </div>
                 <div class="widget-post-content">
-                  <a href="single-post.html">
+                  <a href="raptor_white.html">
                     <h5>Raptor | White</h5>
                   </a>
                   <h6></h6>
@@ -392,6 +393,26 @@ Fixed Navigation
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
 <script src="plugins/google-map/gmap.js"></script>
+
+<script src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-mlens.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+      $("#raptor").mlens(
+      {
+          imgSrc: $("#raptor").attr("data-big"),   // path of the hi-res version of the image
+          lensShape: "circle",                // shape of the lens (circle/square)
+          lensSize: 180,                  // size of the lens (in px)
+          borderSize: 4,                  // size of the lens border (in px)
+          borderColor: "#fff",                // color of the lens border (#hex)
+          borderRadius: 0,                // border radius (optional, only if the shape is square)
+          imgOverlay: $("#raptor").attr("data-overlay"), // path of the overlay image (optional)
+          overlayAdapt: true // true if the overlay image has to adapt to the lens size (true/false)
+      });
+  });
+  </script>
 
 <!-- Custom js -->
 <script src="js/script.js"></script>
