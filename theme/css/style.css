@@ -263,7 +263,7 @@ a:focus, a:hover {
   margin: 20px auto 20px;
   position: relative;
   width: 80px;
-  background: #28ABE3;
+  background: #000000;
 }
 
 .bg-gray {
@@ -426,7 +426,7 @@ a:focus, a:hover {
   color: #7a7a7a;
 }
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
-  color: #28ABE3;
+  color: #000000;
 }
 @media (max-width: 991px) {
   .navigation .nav-link {
@@ -778,7 +778,7 @@ a:focus, a:hover {
   background: #fff;
 }
 .about .btn-about {
-  background: #28ABE3;
+  background: #000000;
 }
 .about h4 {
   margin-top: 30px;
@@ -802,7 +802,7 @@ a:focus, a:hover {
   }
 }
 .about .feature-list li i {
-  color: #28ABE3;
+  color: #000000;
   margin-right: 8px;
 }
 
@@ -992,7 +992,7 @@ a:focus, a:hover {
 .counters-item i {
   font-size: 40px;
   display: inline-block;
-  color: #28ABE3;
+  color: #080808;
 }
 .counters-item h3 {
   font-size: 18px;
@@ -1061,7 +1061,7 @@ a:focus, a:hover {
   margin-top: 5px;
 }
 .pricing-table .price-title .value {
-  color: #28ABE3;
+  color: rgb(0, 0, 0);
   font-size: 50px;
   padding: 10px 0;
 }
@@ -1133,7 +1133,7 @@ a:focus, a:hover {
   color: #fff;
 }
 .portfolio-block .caption .search-icon {
-  background: #181818;
+  background: #eceaea;
   color: #fff;
   display: inline-block;
   height: 45px;
@@ -1145,6 +1145,92 @@ a:focus, a:hover {
   line-height: 47px;
 }
 
+
+/*=================================================================
+  Productos-filter
+==================================================================*/
+
+ .producto-filter {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.producto-filter h5 {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  background: #080808;
+  border: none;
+  color: #fff;
+  outline: none;
+  margin: 6px 4px;
+}
+.producto-filter button.active {
+  background: #505050;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.producto-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+.producto-block:before {
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.producto-block:hover:before {
+  opacity: 1;
+}
+.producto-block:hover .caption h4 {
+  top: 45%;
+}
+.producto-block:hover .caption {
+  opacity: 1;
+  top: 55%;
+}
+.producto-block .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.producto-block .caption h4 {
+  font-size: 16px;
+}
+.producto-block .caption h4 a {
+  color: #fff;
+}
+.producto-block .caption .search-icon {
+  background: #181818;
+  color: #fff;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  font-size: 17px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 47px;
+} */
+
+
+
+
+
+
 /*=================================================================
   Services section
 ==================================================================*/
@@ -1152,7 +1238,7 @@ a:focus, a:hover {
   padding: 100px 0 130px;
 }
 .services .service-block.color-bg {
-  background: #28ABE3;
+  background: #070707;
   color: #fff;
 }
 .services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
@@ -1163,7 +1249,7 @@ a:focus, a:hover {
 }
 .services .service-block i {
   font-size: 75px;
-  color: #28ABE3;
+  color: #000000;
 }
 .services .service-block h3 {
   color: #333;
@@ -1186,17 +1272,17 @@ a:focus, a:hover {
   transition: all 0.3s ease 0s;
 }
 .service-2 .service-item:hover {
-  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 65px 0 rgba(238, 237, 237, 0.15);
   -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
 }
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #28ABE3;
+  color: #000000;
 }
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #28ABE3 none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1224,7 +1310,7 @@ a:focus, a:hover {
   height: 10px;
 }
 .team-skills .progress-block .progress .progress-bar {
-  background: #28ABE3;
+  background: #000000;
   box-shadow: none;
 }
 
@@ -1262,19 +1348,19 @@ a:focus, a:hover {
   color: #838383;
 }
 .development-steps .step-2 {
-  background-color: #28ABE3;
+  background-color: #000000;
 }
 .development-steps .step-2 h4, .development-steps .step-2 p {
   color: #fff;
 }
 .development-steps .step-3 {
-  background: #198dbf;
+  background: #000000;
 }
 .development-steps .step-3 h4, .development-steps .step-3 p {
   color: #fff;
 }
 .development-steps .step-4 {
-  background: #167da9;
+  background: #000000;
 }
 .development-steps .step-4 h4, .development-steps .step-4 p {
   color: #fff;
@@ -1370,7 +1456,7 @@ a:focus, a:hover {
 ==================================================================*/
 .testimonial {
   padding-top: 100px;
-  background: #28ABE3;
+  background: #000000;
   position: relative;
   padding-bottom: 0px;
   margin-bottom: 80px;
@@ -1461,7 +1547,7 @@ a:focus, a:hover {
   margin-bottom: 30px;
 }
 .post-content blockquote {
-  border-left: 2px solid #28ABE3;
+  border-left: 2px solid #070707;
   padding: 40px 35px;
   margin-bottom: 30px;
   background: rgb(238, 238, 238);
@@ -1482,8 +1568,8 @@ a:focus, a:hover {
   display: inline-block;
 }
 .post-content-share li a:hover {
-  background: #28ABE3;
-  border-color: #28ABE3;
+  background: #000000;
+  border-color: #020202;
   color: #fff;
 }
 
@@ -1534,7 +1620,7 @@ a:focus, a:hover {
   }
 }
 .comment-list-item .comment-btn:hover {
-  background: #28ABE3;
+  background: #000000;
   color: #fff;
 }
 
@@ -1557,7 +1643,7 @@ a:focus, a:hover {
   height: 200px !important;
 }
 .comment-form .btn-primary {
-  background: #28ABE3;
+  background: #000000;
   border-radius: 0;
   padding: 10px 20px;
   border: 0;
@@ -1585,7 +1671,7 @@ a:focus, a:hover {
   right: 0;
   height: 100%;
   width: 50px;
-  background: #28ABE3;
+  background: #000000;
   border: 0;
 }
 .widget-search-btn i {
@@ -1612,7 +1698,7 @@ a:focus, a:hover {
   margin-right: 10px;
 }
 .widget-categories-list li a:hover {
-  background: #28ABE3;
+  background: #0a0a0a;
   color: #fff;
   padding-left: 20px;
 }
@@ -1640,7 +1726,7 @@ a:focus, a:hover {
   color: #000;
 }
 .widget-post-content h5:hover {
-  color: #28ABE3;
+  color: #020202;
 }
 
 /*=================================================================
@@ -1661,7 +1747,7 @@ a:focus, a:hover {
   padding: 0 20px 10px;
 }
 .post-meta a {
-  color: #28ABE3;
+  color: #000000;
 }
 .post-meta > span {
   color: #666;
@@ -1715,7 +1801,7 @@ a:focus, a:hover {
   color: #000;
 }
 .next-prev a:hover {
-  color: #28ABE3;
+  color: #050505;
 }
 .next-prev .prev-post i {
   margin-right: 10px;
@@ -1734,7 +1820,7 @@ a:focus, a:hover {
   font-size: 16px;
 }
 .social-profile ul li a i:hover {
-  color: #28ABE3;
+  color: #000000;
 }
 
 .comments-section {
@@ -1778,7 +1864,7 @@ a:focus, a:hover {
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: #28ABE3;
+  color: #000000;
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1799,7 +1885,7 @@ a:focus, a:hover {
 }
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #28ABE3;
+  border: 1px solid #000000;
 }
 .comment-reply-form textarea, .comment-reply-form .btn-main {
   height: auto;
@@ -1842,7 +1928,7 @@ a:focus, a:hover {
   display: block;
 }
 .top-footer li a:hover {
-  color: #28ABE3;
+  color: #000000;
 }
 
 .footer-bottom {
@@ -1871,7 +1957,7 @@ a:focus, a:hover {
   margin-bottom: 0;
 }
 .footer-bottom a {
-  color: #28ABE3;
+  color: #000000;
 }
 
 .page-404 {
@@ -2178,3 +2264,88 @@ a:focus, a:hover {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/*modal images*/
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
